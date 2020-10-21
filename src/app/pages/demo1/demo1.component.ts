@@ -17,7 +17,6 @@ export class Demo1Component implements OnInit {
     // const test = await this.storeRsService.getStoreRsTree();
     // console.log('这里是调试1');
     // console.log(test);
-
   }
 
 }
