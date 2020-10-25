@@ -37,7 +37,7 @@
             <ng-container *ngIf="!menu.children">
               <li nz-menu-item [nzMatchRouter]="menu.matchRouter">
                 <i nz-icon [nzType]="menu.icon"></i>
-                <a [routerLink]="menu.link">{{menu.name}}</a>
+                <span><a [routerLink]="menu.link">{{menu.name}}</a></span>
               </li>
             </ng-container>
           </ul>
